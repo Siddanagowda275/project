@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - Restaurant</title>
+    <style>
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 20px 0;
+}
+
+header h1 {
+    text-align: center;
+    font-size: 2.5rem;
+}
+
+nav ul {
+    list-style: none;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.1rem;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+.section {
+    padding: 40px 0;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    max-width: 1200px;
+}
+
+h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+form label {
+    display: block;
+    margin: 10px 0 5px;
+    font-size: 1rem;
+}
+
+form input,
+form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+form button {
+    background-color: #333;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #555;
+}
+
+.map-container {
+    margin-top: 20px;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+}
+.navbar{
+    background-color:#1e202a;
+    font-family:'arima', cursive;
+    padding-right: 15px; padding-left: 15px;
+   }
+   .navdiv{
+    display: flex; align-items: center; justify-content: space-between;
+   }
+li{
+    list-style: none; display: inline-block;
+}
+li a{
+    color: white; font-size: 18px;font-weight: bold;margin-right: 25px;
+}
+   .button{
+    background-color: yellow; margin-left: 10px; border-radius:10px;padding:10px; width: 90px;
+   }
+   .buttona{
+    color: black; font-weight: bold; font-size: 15px;
+   }
+h3{
+color:#ffffff;
+}
+ button{
+    background-color: yellow; margin-left: 10px; border-radius:10px;padding:10px; width: 90px;
+   }
+   button a{
+    color: black; font-weight: bold; font-size: 15px;
+   }
+
+</style>
+</head>
+<body>
+    
+        
+          <nav class="navbar">
+            <div class="navdiv">
+            <div class="logo"><h3>The Grill House</h3></div>
+            <ul>
+                <li><a href="Restaurant2.html">Home</a></li>
+                <li><a href="Menu.html">Menu</a></li>
+               
+                <li><a href="file:///D:/siddu/aboutus.html#">About us</a></li>
+                <li><a href="file:///D:/siddu/New%20folder/contactus.html">Contact</a></li>
+                <li><a href="file:///D:/siddu/New%20folder/preservice.html">Services</a></li>
+                <button class="button buttona"><a href="file:///D:/siddu/product.html">Register</a></button>
+            </ul>
+            </div>
+        </nav>
+
+         
+
+    <section id="contact-form" class="section">
+        <div class="container">
+            <h2>Contact Us</h2>
+            <form action="#" method="post">
+                <label for="name">Name</label>
+                <input type="text" id="name" name="name" required placeholder="Enter your name">
+
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" required placeholder="Enter your Email">
+
+                <label for="message">Message</label>
+                <textarea id="message" name="message" rows="4" required placeholder="Throw a message..."></textarea>
+
+                <button type="submit">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <section id="location" class="section">
+        <div class="container">
+            <h2>Our Location</h2>
+            <p>Visit us at the address below:</p>
+            <p>THE GRILL HOUSE,Tumkur,Food street,SIT back gate-572106.</p>
+
+        
+            <div class="map-container">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3882.3614653982186!2d77.12196887359582!3d13.32777680697234!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bb02d7b666873df%3A0xfeaae95033b3c293!2sSIT%20Back%20Gate!5e0!3m2!1sen!2sin!4v1733737917148!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 THE GRILL HOUSE. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>

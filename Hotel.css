@@ -1,0 +1,114 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    font-family: "Poppins", sans-serif;
+
+}
+#hero{
+    position: relative;
+    width: 100vw;
+    height:100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-image: url("C:\Users\sidda\Downloads\WhatsApp Image 2024-11-24 at 20.57.50_239bba7f.jpg") ;
+}
+    #hero_content > p, #hero > h2, h2 > span {
+        animation-name: scale-up-center;
+        animation-duration: 1.7s;
+    }
+    @keyframes scale-up-center {
+        0% {transform:scale(.5)}
+        100% {transform:scale(1)}
+    }
+    #hero_content > h1{
+        font-family: 'Cookie', cursive;
+        font-weight: bolder;
+        font-size: 3.5em;
+        color: #fff;
+        padding: 50px auto 10px;
+    }
+    span {
+        color: red;
+        text-decoration: line-through;
+        text-decoration-color: red;
+    }
+    #hero_content > p {
+        font-family: 'Arima', cursive;
+        color: #f5f50a;
+        padding-bottom: 30px;
+    }
+    #hero_content > a, #hero_content > a {
+        width: 200px;
+        height: 35px;
+        background-color:#f5f50a;
+        color: #000;
+        font-weight: bolder;
+        font-family: 'arial', cursive;
+        font-size: 1em;
+        margin-left: 10px; border-radius:10px;padding:10px; 
+    }
+
+#hero::before{
+    position: absolute;
+    content: "";
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background-image: url("https://img.freepik.com/free-photo/top-view-food-frame-with-copy-space_23-2148723447.jpg?t=st=1732524569~exp=1732528169~hmac=f3ab70689f57c8ed4802ec8b65f0d05aa371d852a015094b4451527adf63d93c&w=900");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    filter: brightness(45%);
+}
+#hero_content{
+    position:absolute;
+}
+
+   .navbar{
+    background-color:#1e202a;
+    font-family:'arima', cursive;
+    padding-right: 15px; padding-left: 15px;
+   }
+   .navdiv{
+    display: flex; align-items: center; justify-content: space-between;
+   }
+   .pic{
+    position: fixed;
+    height: auto;
+    left: 100px;
+    width: 250px;
+   }
+    
+   
+li{
+    list-style: none; display: inline-block;
+}
+li a{
+    color: white; font-size: 18px;font-weight: bold;margin-right: 25px;
+}
+   button{
+    background-color: yellow; margin-left: 10px; border-radius:10px;padding:10px; width: 90px;
+   }
+   button a{
+    color: black; font-weight: bold; font-size: 15px;
+   }
+  .logo{
+    
+  }
+  h3{
+    color: #fff;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bolder;
+  }
+ .all{
+    background-image: URL("C:\Users\sidda\Downloads\WhatsApp Image 2024-11-24 at 20.57.50_239bba7f.jpg");
+ }
